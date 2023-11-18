@@ -1,5 +1,3 @@
-import os
-os.environ['OPENCV_DISABLE_OPENGL'] = '1' 
 import cv2
 import numpy as np
 from pyzbar.pyzbar import decode
